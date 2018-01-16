@@ -10,6 +10,9 @@ def display_banner():
     stars = '!' * len(msg)
     print('\n', stars, '\n', msg, '\n',  stars, '\n')
 
+    print("Type in a sentence that you would like to see camelCased")
+
+
 
 def main():
 
