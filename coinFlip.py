@@ -53,6 +53,7 @@ def coinFlips():
     # value error handler incase user puts in anthing other than a number
     except ValueError:
         print("Must be a number")
+        # calling main program
         coinFlips()
 
 # calling the program at the end of the python so that it checks the program first
